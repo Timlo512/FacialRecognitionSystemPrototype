@@ -91,6 +91,7 @@ Setting:
 Facial Detection: On --> Off
 
 It will be like that:
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/07.png)
 
 ### on_face_recognize_control.py
@@ -106,6 +107,7 @@ Setting:
 Facial Recognition: On --> Off
 
 It will be like that:
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/09.png)
 
 The mainflow program then start to recognize face who has been saved in the system. For those who are not saved in the system, it will recognize as 'unknown'
