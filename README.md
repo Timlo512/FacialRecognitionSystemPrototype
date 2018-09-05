@@ -29,7 +29,7 @@ For your reference:
 
 4. Move your directory to your downloaded folder (FacialRecognitionSystemPrototype). Run following command:
 
-| python mainflow.py|
+| <username>$ python mainflow.py|
 |-------------------|
 
 <b>Note that above command would be a bit different if you are using Window/ Linux/ Unix OS</b>
@@ -62,7 +62,7 @@ It has four external programs to control the properties of mainflow program. To 
 ### take_photo.py
 To save your face feature into the system, you can run take_photo.py. Run following command:
 
-| python take_photo.py|
+| <username>$ python take_photo.py|
 |---------------------|
 
 
@@ -79,20 +79,49 @@ Press enter and it will save your face feature into the system.
 
 ### on_face_detect_control.py
 
-To control on and off face detection, you can run on_face_detect_control.py. Run following command:
+To control on and off facial detection, you can run on_face_detect_control.py. Run following command:
 
-| python on_face_detect_control.py|
+| <username>$ python on_face_detect_control.py|
 |---------------------------------|
 
 
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/06.png)
 
+Setting:
+Facial Detection: On --> Off
+
+It will be like that:
+![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/07.png)
+
 ### on_face_recognize_control.py
 
+To control on and off facial recognizion, you can run on_face_recognize_control.py. Run following command:
+
+| <username>$ python on_face_recognize_control.py|
+|---------------------------------|
+  
+![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/08.png)
+
+Setting:
+Facial Recognition: On --> Off
+
+It will be like that:
+![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/09.png)
+
+The mainflow program then start to recognize face who has been saved in the system. For those who are not saved in the system, it will recognize as 'unknown'
+
+Default Setting:
+Max frame to detect face: 2
 
 ### quit_control.py
+To quit the mainflow program, you can run quit_control.py. Run following command:
 
+| <username>$ python quit_control.py|
+|---------------------------------|
+  
+![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/10.png)
 
+The mainflow.py will be terminated within seconds.
 
 ## Requirement
 1. Python 3.6.5
