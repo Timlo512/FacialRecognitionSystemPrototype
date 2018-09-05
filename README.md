@@ -23,7 +23,6 @@ For your reference:
   
 3. Unzip the pretrained model file and put it into the downloaded folder (FacialRecognitionSystemPrototype).
 
-Image[00]
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/00.png)
 
 ## Run Your Program
@@ -35,18 +34,18 @@ Image[00]
 
 <b>Note that above command would be a bit different if you are using Window/ Linux/ Unix OS</b>
 
-Image[01]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/01.png)
 
 
 5. After you successfully run the program, it will be like that:
 
-Image[02]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/02.png)
 
 Wait around 20~30s...
 
-Image[03]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/03.png)
 
 It will assess your laptop camera and start to reveal real-time video on your Desktop.
@@ -66,12 +65,12 @@ To save your face feature into the system, you can run take_photo.py. Run follow
 | python take_photo.py|
 |---------------------|
 
-Image[04]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/04.png)
 
 Then, it will ask you name in order to display it when you turn on the facial recognition.
 
-Image[05]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/05.png)
 
 Press enter and it will save your face feature into the system.
@@ -85,7 +84,7 @@ To control on and off face detection, you can run on_face_detect_control.py. Run
 | python on_face_detect_control.py|
 |---------------------------------|
 
-Image[06]
+
 ![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/06.png)
 
 ### on_face_recognize_control.py
