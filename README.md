@@ -24,6 +24,7 @@ For your reference:
 3. Unzip the pretrained model file and put it into the downloaded folder (FacialRecognitionSystemPrototype).
 
 Image[00]
+![alt text](https://raw.githubusercontent.com/timtimtimab/FacialRecognitionSystemPrototype/master/images/00.png)
 
 ## Run Your Program
 
@@ -35,6 +36,7 @@ Image[00]
 <b>Note that above command would be a bit different if you are using Window/ Linux/ Unix OS</b>
 
 Image[01]
+
 
 5. After you successfully run the program, it will be like that:
 
@@ -56,7 +58,7 @@ facial recognition: off
 It has four external programs to control the properties of mainflow program. To run those programs, open one more commandline window, move your directory to your downloaded folder (FacialRecognitionSystemPrototype).
 
 ### take_photo.py
-To save your face embedding, you can run take_photo.py. Run following command:
+To save your face feature into the system, you can run take_photo.py. Run following command:
 
 | python take_photo.py|
 |---------------------|
@@ -65,16 +67,31 @@ Image[04]
 
 Then, it will ask you name in order to display it when you turn on the facial recognition.
 
-<u>Be aware that this program take your image when the mainflow program is successfully detect your face.</u>
+Image[05]
 
-### 
+Press enter and it will save your face feature into the system.
+
+<b>Be aware that this program takes photo when the mainflow program successfully detects your face.</b>
+
+### on_face_detect_control.py
+
+To control on and off face detection, you can run on_face_detect_control.py. Run following command:
+
+| python on_face_detect_control.py|
+|---------------------------------|
+
+Image[05]
+
+### on_face_recognize_control.py
 
 
 
 
 ## Requirement
-1. Python 3
-2. 
+1. Python 3.6.5
+2. tensorflow 1.9.0
+3. numpy 1.14.5
+4. cv2 3.4.2
 
 ### Reference
 
