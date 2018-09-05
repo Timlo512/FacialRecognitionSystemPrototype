@@ -12,6 +12,65 @@ Inspired by <a href = "https://github.com/davidsandberg/facenet"> davidsandberg/
 # Documentation
 
 ## Get Started
+1. First, download .zip file onto your desktop and unzip it. As it is a CUI-based program, it is recommended to put the file on your desktop.
+
+2. Go to <a href = 'https://github.com/davidsandberg/facenet'>this</a> website to download the pretrained model. In the program, the pretrained model is called '20180402-114759'. It has inception RestNet architecture trained by VGGFace2. Below is the direct google drive link that you can download the pretrained model. 
+
+<a href = 'https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view'>https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view</a>
+
+For your reference:
+  you can use other model which is written on tensorflow.
+  
+3. Unzip the pretrained model file and put it into the downloaded folder (FacialRecognitionSystemPrototype).
+
+Image[00]
+
+## Run Your Program
+
+4. Move your directory to your downloaded folder (FacialRecognitionSystemPrototype). Run following command:
+
+| python mainflow.py|
+|-------------------|
+
+<b>Note that above command would be a bit different if you are using Window/ Linux/ Unix OS</b>
+
+Image[01]
+
+5. After you successfully run the program, it will be like that:
+
+Image[02]
+
+Wait around 20~30s...
+
+Image[03]
+
+It will assess your laptop camera and start to reveal real-time video on your Desktop.
+
+Default setting:
+facial detection: On
+facial recognition: off
+<b>It will start to detect face and display a blue color rectangle on the face detected.</b>
+
+## Control Functions
+
+It has four external programs to control the properties of mainflow program. To run those programs, open one more commandline window, move your directory to your downloaded folder (FacialRecognitionSystemPrototype).
+
+### take_photo.py
+To save your face embedding, you can run take_photo.py. Run following command:
+
+| python take_photo.py|
+|---------------------|
+
+Image[04]
+
+Then, it will ask you name in order to display it when you turn on the facial recognition.
+
+<u>Be aware that this program take your image when the mainflow program is successfully detect your face.</u>
+
+### 
+
+
+
 
 ## Requirement
 1. Python 3
