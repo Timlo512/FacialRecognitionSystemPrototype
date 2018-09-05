@@ -113,7 +113,7 @@ It will be like that:
 The mainflow program then start to recognize face who has been saved in the system. For those who are not saved in the system, it will recognize as 'unknown'
 
 Default Setting:
-Max frame to detect face: 2
+Max frame: 2
 
 ### quit_control.py
 To quit the mainflow program, you can run quit_control.py. Run following command:
